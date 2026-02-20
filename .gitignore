@@ -1,22 +1,17 @@
-# .gitignore 内容
 __pycache__/
 *.py[cod]
 *$py.class
 
-# 虚拟环境
 venv/
 .env
 .conda/
 
-# 数据集 (数据通常很大，不进 Git，写脚本下载)
 datasets/
 BCCD/
 
-# 训练日志和模型权重
 runs/
 *.pt
 *.onnx
 
-# IDE 配置 (不要把个人的 VSCode 配置传上去)
 .vscode/
 .idea/
