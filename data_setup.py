@@ -102,7 +102,7 @@ def setup_data():
     process_files(val_files, 'val')
 
     yaml_content = f"""
-path: {os.path.abspath(DATASET_DIR)} 
+path: .
 train: images/train
 val: images/val
 
